@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>+VagasBrasil</title>
+    <!-- folha de estilo do documento -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="icon" href="img/davy.jpg">
+    <!-- scripts do documento -->
+    <script src="js/jquery-3.7.1.min.js" defer></script>
+    <script src="js/bootstrap.js" defer></script>
+    <style>body {
+background-color: #f8f9fa;
+}
+.container-form {
+max-width: 900px;
+margin: auto;
+background: white;
+padding: 20px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.left-box {
+background: #26303b;
+color: white;
+padding: 40px;
+border-radius: 10px 0 0 10px;
+}.logo {
+width: 50px;
+height: 50px;
+position: absolute;
+top: 20px;
+left: 20px; }
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="index.html">
+            <img src="img/html.png" width="30" height="30" class="d-inline-block align-top ml-5" alt="">
+            +VagasBrasil
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Alterna navegação">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto text-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="teste.html">Área de vagas<span class="sr-only">(Página atual)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">teste1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link mr-4" href="#">teste2</a>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-info mr-2">Login</button>
+                </li>
+                <li class="nav-item">
+                    <button type="button" class="btn btn-secondary mr-5">Cadastre-se</button>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <div class="row container-form">
+            <div class="card col-12 col-md-6">
+                <img class="card-img-top" src="img/pc.png" alt="Imagem da capa do card">
+                <div class="card-body">
+                    <h5 class="titulo-maior">Estagiário de Desenvolvimento Web</h5>
+                    <p class="lead titulo-card">HTML, CSS, JavaScript (básico ou intermediário)</p>
+                        <p class="lead">Familiaridade com uma linguagem de back-end (ex: Node.js, Python, Java,.)</p>
+                    <a href="area_vagas.html" role="button" class="btn btn-success mr-2">Cadastre-se</a>
+                </div>
+            </div>
+        
+        
+            <div class="col-12 col-md-6 p-4">
+                <h4 class="form-label">Cadastro</h4>
+                <form>
+                    <div class="mb-3">
+                    <label>Nome</label>
+                    <input type="text" class="form-control" placeholder="Seu nome">
+                </div>
+                <div class="mb-3">dasda
+                    <label>Email</label>
+                    <input type="text" class="form-control" placeholder="Exemplo@gmail.com">
+                </div>
+                <div class="mb-3">
+                    <label>Senha:</label>
+                    <input type="text" class="form-control" placeholder="Digite sua senha">
+                </div>
+                <div class="mb-3">
+                    <label>profissao</label>
+                    <select name="profissao" class="form-control">
+                        <option value="desenvolvedor">Desenvolvedor</option>
+                        <option value="engenheiro">Engenheiro</option>
+                        <option value="medico">Médico</option>
+                        <option value="advogado">Advogado</option>
+                        <option value="professor">Professor</option>
+                        <option value="designer">Designer</option>
+                        <option value="contador">Contador</option>
+                        <option value="arquiteto">Arquiteto</option>
+                        <option value="analista">Analista</option>
+                        <option value="administrador">Administrador</option>
+                    </select>
+                   </Select>
+                </div>
+                <div class="mb-3">
+                    <label>Confirmação de Senha</label>
+                    <input type="text" class="form-control" placeholder="Confirme sua Senha">
+                </div>
+                </form>
+                <p class="text-center mt-3">Ja possui uma conta?<a href= >entrar</a></p>
+            </div>
+    </div>
+    </div>
+    </body>
+    </html>
